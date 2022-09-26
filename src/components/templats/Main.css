@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 250px 0;
+}
+
+.main h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+.main .icone {
+    width: 30px;
+}
+
+.main .icone i {
+    font-size: 40px;
+}
+
+.main .icone i:hover {
+    color: rgba(0, 0, 0, 0.397);
+}
+
+.none {
+    display: none;
+}
