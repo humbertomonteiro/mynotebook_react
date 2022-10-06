@@ -1,7 +1,7 @@
 import './Section.css'
 
 const SectionGit = props =>
-    <section className='section corBg'>
+    <section data-anime className='section corBg'>
         <div>
             <img src={props.img} alt="" />
         </div>

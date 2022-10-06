@@ -1,7 +1,7 @@
-import './Section.css'
+import './Section.css'  
 
 const SectionBootstrap = props =>
-    <section className='section corLetra'>
+    <section data-anime className='section corLetra'>
         <div className='cont'>
             <h1>Bootstrap</h1>
             <p>Um framework front-end que fornece estruturas css para ficar mais simples de fazer sua interface</p>
