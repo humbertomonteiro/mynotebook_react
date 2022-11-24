@@ -6,3 +6,11 @@
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+body {
+  background-image: linear-gradient(to bottom, #0d142e, #090e20, #0d142e);
+}
+
+li {
+  list-style: none;
+}
