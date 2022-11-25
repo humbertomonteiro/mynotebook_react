@@ -14,8 +14,8 @@ export default function SectionBootstrap() {
                     ficar toda funcional.
                 </p>
                 <div className='buttons'>
-                    <a className='btn-black' href=''>Clone Finans</a>
-                    <a className='btn-black' href=''>Clone Spotify</a>
+                    <a className='btn-black' href="https://humbertomonteiro.github.io/finans/" target='_blanck'>Clone Finans</a>
+                    <a className='btn-black' href="https://humbertomonteiro.github.io/spotify/" target='_blanck'>Clone Spotify</a>
                 </div>
             </div>
             <div>

@@ -52,7 +52,8 @@ export default function GitHub() {
                         <h2>Criar conta</h2>
                         <p>
                             Primeiro crie uma conta no GitHub. É como criar qualquer outra conta na internet.
-                            <a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home">Criar conta</a>
+                            <a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home"
+                            target='_blanck'>Criar conta</a>
                         </p>
                         <h2>Criar repósitorio remoto</h2>
                         <p>
@@ -151,7 +152,7 @@ export default function GitHub() {
                             Pronto! Agora seu repositório está atualizado e você pode  trabalhar normalmente.
                         </p>
 
-                        <h2>Agora vamos personalizar seu GitHub</h2>
+                        <h2>Personalize seu GitHub</h2>
                         <p>
                             Seu github será visto por empresas para que elas avaliem seus códigos e vejam seus 
                             projetos. Então vamos dar uma melhorada no nosso github.
@@ -172,7 +173,7 @@ export default function GitHub() {
                             direita.
                         </p>
                         <div className="div-video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/cRoBt6AZgjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/cRoBt6AZgjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

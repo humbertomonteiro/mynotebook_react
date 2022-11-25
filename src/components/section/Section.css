@@ -8,6 +8,7 @@
 .section i {
     max-width: 375px;
     font-size: 15em;
+    margin: 20px 0;
 }
 
 .section h1 {
@@ -73,6 +74,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 0 10px;
 }
 
 #note {
@@ -85,7 +87,6 @@
 
 .container-show-notes div {
     max-width: 900px;
-    padding: 10px;
 }
 
 .container-show-notes h1 {
@@ -94,16 +95,17 @@
 }
 
 .container-show-notes h2 {
+    font-size: 2em;
     padding: 10px 0;
 }
 
 .container-show-notes h3 {
+    font-size: 1.7em;
     padding: 10px 0;
 }
 
 .container-show-notes p {
     font-size: 1.1em;
-    font-weight: 600;
 }
 
 .container-show-notes .div-img {
@@ -111,11 +113,10 @@
     flex-wrap: wrap;
     justify-content: center ;
     align-items: center;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .container-show-notes .div-img img {
-    width: 350px;
     padding: 2px;
     background-color: #000;
     border-radius: 4px;
@@ -126,11 +127,9 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px 0;
-
 }
 
 .container-show-notes .div-video iframe {
-    max-width: 90%;
     border-radius: 4px;
     padding: 2px;
     background-color: #000;
@@ -138,4 +137,16 @@
 
 .container-show-notes strong {
     margin: 0 2px;
+}
+
+@media screen and (max-width: 780px) {
+    .container-show-notes .div-img img,
+    .container-show-notes .div-video iframe {
+        width: 340px;
+    }
+
+    .buttons a,
+    .btn {
+        font-size: 1.2em;
+    }
 }

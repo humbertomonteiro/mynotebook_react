@@ -63,7 +63,7 @@ export default function Git() {
                         </p>
                         <h3>Para iniciar</h3>
                         <p>No visual studio code vamos dar nosso primeiro comando para inicializarmos o git. Para abrir
-                            o terminal usamos as teclas ctrl j. E no terminal vamos digitar o comando git init.
+                            o terminal usamos as teclas ctrl j. E no terminal vamos digitar o comando <strong>git init</strong>.
                             Nessa hora vai aparecer uma mensagem informando que o repositorio git foi criado e
                             irá aparecer uma pasta nomeada como git na pasta que vecê está ultilizando.
                         </p>

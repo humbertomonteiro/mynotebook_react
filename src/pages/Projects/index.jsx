@@ -11,7 +11,7 @@ export default function Projects() {
         <section className='container-projects'>
             <h1>Meus Projetos Pessoais</h1>
             <div className="projects">
-                <a href="">
+                <a href="https://humbertomonteiro.github.io/finans/" target='_blanck'>
                     <img src={Finans} alt="" />
                     <div className='projects-info'>
                         <h2>Clone do site Finans</h2>
@@ -19,7 +19,7 @@ export default function Projects() {
                         <p>HTML, CSS, JavaScript e Bootstrap</p>
                     </div>
                 </a>
-                <a href="">
+                <a href="https://humbertomonteiro.github.io/spotify/" target='_blanck'>
                     <img src={Spotify} alt="" />
                     <div className="projects-info">
                         <h2>Clone do site Spotify</h2>
@@ -27,7 +27,7 @@ export default function Projects() {
                         <p>HTML, CSS, JavaScript e Bootstrap</p>
                     </div>
                 </a>
-                <a href="">
+                <a href="https://humbertomonteiro.github.io/game-Mata-Mosquito/" target='_blanck'>
                     <img src={Mosquito} alt="" />
                     <div className="projects-info">
                         <h2>Game feito com JavaScript</h2>
@@ -35,10 +35,10 @@ export default function Projects() {
                         <p>HTML, CSS, JavaScript</p>
                     </div>
                 </a>
-                <a href="">
+                <a href="https://humbertomonteiro.github.io/app_financas/" target='_blanck'>
                     <img src={Orcamento} alt="" />
                     <div className="projects-info">
-                        <h2>Aplicação para gerênciar seu orçamento</h2>
+                        <h2>Gerênciar seu orçamento</h2>
                         <h3>Tecnologias usadas:</h3>
                         <p>HTML, CSS, JavaScript</p>
                     </div>
