@@ -1,13 +1,13 @@
 .section {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     align-items: center;
+    flex-wrap: wrap;    
 }
 
-.section img {
-    width: 500px;
-    margin: 20px 0;
+.section i {
+    max-width: 375px;
+    font-size: 15em;
 }
 
 .section h1 {
@@ -19,16 +19,86 @@
 }
 
 .section .cont {    
-    width: 500px;
+    max-width: 450px;
     padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    margin: 10px 0;
+}
+
+.buttons a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 0 15px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: transform 0.7s;
+    transform: scale(1.05);
+}
+
+.buttons a:hover {
+    transform: scale(1);
 }
 
 .corBg {
     background-color:rgb(255, 255, 255);
     box-shadow: 3px 3px 10px black;
-    padding: 60px 0;
 }
 
-.corLetra {
-    color: white;
+.corLetra,
+.btn-white {
+    color: #fff;
+}
+
+.btn-white {
+    border: 1px solid #fff;
+}
+
+.btn-black {
+    font-weight: 100;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.container-show-notes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#note {
+    display: none;
+}
+
+#note.active {
+    display: block;
+}
+
+.container-show-notes div {
+    max-width: 900px;
+    padding: 8px;
+}
+
+.container-show-notes h1 {
+    font-size: 2.2em;
+    padding: 10px 0;
+}
+
+.container-show-notes h2 {
+    padding: 10px 0;
+}
+
+.container-show-notes h3 {
+    padding: 10px 0;
+}
+
+.container-show-notes p {
+    font-size: 1.1em;
 }

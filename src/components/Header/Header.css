@@ -40,6 +40,10 @@
 }
 
 @media screen and (max-width: 780px) {
+    .header {
+        margin-bottom: 45px;
+    }
+    
     #nav {
         justify-content: space-around;
         position: fixed;

@@ -39,11 +39,12 @@
     font-size: 1.7em;
     border-radius: 4px;
     cursor: pointer;
-    width: 170px;
+    width: 180px;
     height: 170px;
+    margin: 2px;
     background-color: #0a0f24;
     color: black;
-    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.384);
+    border: 1px solid rgba(212, 212, 212, 0.384);
     transition: transform 0.7s;
     transform: translateY(30px);
 }
@@ -51,7 +52,7 @@
 .tec h3 {
     position: absolute;
     top: 27px;
-    font-size: 3em;
+    font-size: 3.6em;
     color: rgba(255, 255, 255, 0.247);
 }
 

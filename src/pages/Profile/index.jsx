@@ -1,11 +1,11 @@
-import './Portifolio.css'
+import './Profile.css'
 
 import { AiOutlineInstagram, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 import Perfil from '../../assets/imgs/perfil.jpg'
 import Skills from '../../components/Skills'
 
-export default function Portifolio() {
+export default function Profile() {
     return (
         <div className='container-profile'>
 

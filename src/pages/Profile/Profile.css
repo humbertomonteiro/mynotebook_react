@@ -5,11 +5,27 @@
     flex-wrap: wrap;
 }
 
+.container-img {
+    display: flex;
+    flex-direction: column;   
+    justify-content: start; 
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container-img img {
+    width: 200px;
+    padding: 2px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin-bottom: 50px ;
+}
+
 .container-datas {
-    width: 1000px;
     display: flex;
     justify-content: space-around;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .container-profile h2 {
@@ -55,19 +71,4 @@
 .specialties li {
     margin: 10px 0;
     padding: 5px 0;
-}
-
-.container-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 45px 0;
-}
-
-.container-img img {
-    width: 200px;
-    padding: 2px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 4px;
-    margin-bottom: 50px ;
 }

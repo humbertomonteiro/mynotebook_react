@@ -7,7 +7,7 @@
 }
 
 .introduceMe {
-    width: 700px;
+    max-width: 700px;
 }
 
 .introduceMe-text {
@@ -58,7 +58,7 @@
     border-radius: 4px;
     background-color: transparent;
     transition: transform 0.7s;
-    transform: translateY(10px);
+    transform: scale(1.05);
 }
 
 .btn-contacts button:hover {
@@ -67,7 +67,7 @@
 
 @media (max-width: 700px) {
     .introduceMe-text {
-        margin: 45px 0 15px 0;
+        margin: 0 0 15px 0;
     }
 
     .introduceMe-text .name {
