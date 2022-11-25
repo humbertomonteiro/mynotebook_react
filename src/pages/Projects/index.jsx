@@ -43,7 +43,7 @@ export default function Projects() {
                         <p>HTML, CSS, JavaScript</p>
                     </div>
                 </a>
-                <a href="">
+                <a href="https://6380decf8f98a12e0dc6bf35--luminous-cranachan-d62d82.netlify.app/" target='_blanck'>
                     <img src={Encurtador} alt="" />
                     <div className="projects-info">
                         <h2>Encurtador de link usando api B</h2>
