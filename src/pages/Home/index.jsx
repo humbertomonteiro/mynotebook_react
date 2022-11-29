@@ -2,6 +2,8 @@ import './Home.css'
 
 import { AiFillLinkedin, AiOutlineGithub } from 'react-icons/ai'
 
+import BgHome from '../../assets/imgs/bgHome.png'
+
 import Skills from "../../components/Skills";
 
 export default function Home() {
@@ -25,6 +27,9 @@ export default function Home() {
                         <a href="https://www.linkedin.com/in/humberto-monteiro-8b6684110/" target='_blanck'><button><AiFillLinkedin/> Linkedin</button></a>
                         <a href="https://github.com/humbertomonteiro" target='_blanck'><button><AiOutlineGithub/> GitHub</button></a>
                     </div>
+                </div>
+                <div className='introduceMe-img'>
+                    <img src={BgHome} alt="" />
                 </div>
             </section>
             <Skills/>

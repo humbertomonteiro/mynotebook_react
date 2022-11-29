@@ -1,16 +1,15 @@
 .container-profile {
     color: #fff;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
+
 }
 
 .container-img {
     display: flex;
-    flex-direction: column;   
-    justify-content: start; 
+    justify-content: space-around; 
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .container-img img {
@@ -19,7 +18,10 @@
     margin-top: 30px;
     background-color: rgb(255, 255, 255);
     border-radius: 4px;
-    margin-bottom: 50px ;
+}
+
+.container-img strong {
+    margin-bottom: 12px;
 }
 
 .container-datas {
@@ -28,9 +30,26 @@
     margin-left: 10px;
 }
 
+.container-datas a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.container-datas a:hover {
+    color: aqua;
+}
+
+.container-datas a span {
+    margin-right: 5px;
+}
+
 .container-profile h2 {
     font-size: 1.6em;
-    margin: 25px 0;
+    margin: 20px 0;
 }
 
 .container-profile p {
@@ -49,23 +68,6 @@
 
 .contacts-ul li {
     margin: 10px 0;
-}
-
-.contacts a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    padding: 5px 0;
-}
-
-.contacts a:hover {
-    color: aqua;
-}
-
-.contacts a span {
-    margin-right: 5px;
 }
 
 .specialties li {

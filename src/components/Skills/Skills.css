@@ -18,12 +18,11 @@
 }
 
 .skills {
-    width: 80%;
+    width: 85%;
 }
 
 .skills h2 {
     text-align: center;
-    margin-top: 35px;
     font-size: 1.6em;
 }
 
@@ -42,32 +41,31 @@
     cursor: pointer;
     width: 180px;
     height: 170px;
-    margin: 2px;
-    background-color: #0a0f24;
+    margin-bottom: 30px;
     color: black;
-    border: 1px solid rgba(212, 212, 212, 0.384);
     transition: transform 0.7s;
     transform: translateY(30px);
 }
 
 .tec h3 {
     position: absolute;
-    top: 27px;
-    font-size: 3.6em;
-    color: rgba(255, 255, 255, 0.247);
+    top: -7px;
+    font-size: 4em;
+    color: rgba(255, 255, 255, 0.178)
 }
 
 .tec button {
     position: absolute;
-    bottom: 14px;
+    bottom: 40px;
     border: 0;
     background-color: transparent;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: bolder;
+    text-shadow: -2px 2px 2px rgb(43, 42, 42);
 }
 
-.js {
+/* .js {
     color: rgba(255, 255, 0, 0.753);
 }
 
@@ -81,7 +79,7 @@
 
 .git {
     color: rgb(255, 255, 255);
-}
+} */
 
 @media (max-width: 1150px) {
     .tec {

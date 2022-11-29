@@ -1,6 +1,6 @@
 import './Profile.css'
 
-import { AiOutlineInstagram, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { AiOutlineInstagram, AiFillGithub, AiFillLinkedin, AiFillProfile } from 'react-icons/ai'
 
 import Perfil from '../../assets/imgs/perfil.jpg'
 import Skills from '../../components/Skills'
@@ -11,20 +11,23 @@ export default function Profile() {
 
             <div className='container-img'>
                 <img src={Perfil} alt="" />
-                <Skills/>
+            
+                <div className='profile'>
+                    <h2>Perfil</h2>
+                    <ul>
+                        <li><strong>Nome</strong>: Humberto Monteiro Araújo Filho</li>
+                        <li><strong>Idade</strong>: 25 anos</li>
+                        <li><strong>Estado</strong> civil: Casado</li>
+                        <li><strong>Cidade</strong>: Fortaleza/ CE</li>
+                        <li><strong>Email</strong>: bertohf5@gmail.com</li>
+                        <li><strong>Escolaridade</strong>: Ensino médio completo</li>
+                    </ul>
+                </div>
             </div>
 
             <div className='container-datas'>
                 <div className='data'>
-                    <div className='personal'>
-                        <h2>Perfil</h2>
-                        <ul>
-                            <li>Nome: Humberto Monteiro Araújo Filho</li>
-                            <li>Idade: 25 anos</li>
-                            <li>Cidade: Fortaleza/ CE</li>
-                            <li>Escolaridade: Ensino médio completo</li>
-                        </ul>
-                    </div>
+                <Skills/>
                     <div>
                         <h2>Sobre</h2>
                         <p>
@@ -42,6 +45,10 @@ export default function Profile() {
                             <li><a href="https://github.com/humbertomonteiro"><span>GitHub</span> <AiFillGithub/></a></li>
                             <li><a href="https://www.linkedin.com/in/humberto-monteiro-8b6684110/"><span>Linkedin</span> <AiFillLinkedin/></a></li>
                         </ul>
+                    </div>
+                    <div className="data-projects">
+                        <h2>Projetos</h2>
+                        <a href="/projetos">Projetos pessoais <AiFillProfile/></a>
                     </div>
                     <div className='specialties'>
                         <h2>Especialidades</h2>

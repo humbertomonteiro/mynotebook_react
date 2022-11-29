@@ -15,16 +15,16 @@ export default function Skills() {
                         <button>JavaScript</button>
                     </div>
                     <div className='tec'>
-                        <h3><SiNodedotjs className='node'/></h3>
-                        <button>Node.js</button>
+                        <h3><FaGitAlt className='git'/></h3>
+                        <button>Git</button>
                     </div>
                     <div className='tec'>
                         <h3><SiReact className='react'/></h3>
                         <button>React.js</button>
                     </div>
                     <div className='tec'>
-                        <h3><FaGitAlt className='git'/></h3>
-                        <button>Git</button>
+                        <h3><SiNodedotjs className='node'/></h3>
+                        <button>Node.js</button>
                     </div>
                 </div>
             </div>

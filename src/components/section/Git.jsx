@@ -36,14 +36,10 @@ export default function Git() {
                         <h1>Aprendendo Git!</h1>
                         <h2>Para que surgiu o git?</h2>
                         <p>A ferramenta Git surgiu para que projetos fossem commitados, ou seja
-                            ter versões de qualquer aplicação.
+                            ter versões de qualquer aplicação que estiver produzindo.
                         </p>
-                        <p>Seus projetos vão sofrendo mudanças, o Professor Guanabara do Youtube
-                            disse em uma de suas aulas que um projeto nunca está finalizado, sempre
-                            tem o que melhorar ou adicionar.
-                        </p>
-                        <p>E quando vamos melhorando ou adicionando funcionalidades a nossas aplicações
-                            podemos ter alguns imprevistos ou até pedidos de clientes que querem voltar a
+                        <p>E quando vamos melhorando ou adicionando funcionalidades a nossas aplicações,
+                            podemos ter alguns imprevistos ou até mesmo pedidos de clientes que querem voltar a
                             maneira antiga do projeto.
                         </p>
                         <p>O git surgiu justamente para resolver esse problema, com comandos simples podemos
@@ -51,7 +47,6 @@ export default function Git() {
                             Quando um projeto é pequeno, ainda dá pra resolver com umas mudancinhas, mas quando temos
                             uma grande aplicação, temos que ter esse recurso para sermos mais práticos e eficientes.
                         </p>
-
                         <h2>Comandos</h2>
                         <h3>Se apresentando</h3>
                         <p>Para começar vamos adicionar algumas informações suas no seu git, pois quando estivermos 
@@ -67,15 +62,6 @@ export default function Git() {
                             Nessa hora vai aparecer uma mensagem informando que o repositorio git foi criado e
                             irá aparecer uma pasta nomeada como git na pasta que vecê está ultilizando.
                         </p>
-                        <aside>
-                            <h4>Como vê pastas ocultas no gerenciador de arquivos</h4>
-                            <p>quando fizer o comando acima pode ser que vecê não veja nada na pasta, isso acontece por que
-                                não está configurado para mostrar pastas ocultas.
-                                Para mostrar é simples, vá em exibir, depois em opções no seu gerenciador de arquivos e da você 
-                                seleciona mode de exibição, descendo um pouco a barra irá achar a opção 
-                                <strong>mostrar aquivos, pastas e unidades ocultas</strong>.
-                            </p>
-                        </aside>
                         <h3>Preparar para commit</h3>
                         <p>Para usar como exemplo vamos criar duas páginas, index.html e script.js. No terminal vamos usar o comando
                             <strong>git status</strong>. Esse comando mostrará todos os arquivos da sua aplicação. Se eles estão commitados, 
