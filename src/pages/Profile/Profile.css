@@ -9,10 +9,14 @@
 
 .container-img {
     display: flex;
-    justify-content: space-around; 
-    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-profile {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 .container-img img {
@@ -85,5 +89,11 @@
 
     .container-profile p {
         max-width: 345px;
+    }
+
+    .img-profile {
+        max-width: 400px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }

@@ -10,18 +10,21 @@ export default function Profile() {
         <div className='container-profile'>
 
             <div className='container-img'>
-                <img src={Perfil} alt="" />
-            
-                <div className='profile'>
-                    <h2>Perfil</h2>
-                    <ul>
-                        <li><strong>Nome</strong>: Humberto Monteiro Araújo Filho</li>
-                        <li><strong>Idade</strong>: 25 anos</li>
-                        <li><strong>Estado</strong> civil: Casado</li>
-                        <li><strong>Cidade</strong>: Fortaleza/ CE</li>
-                        <li><strong>Email</strong>: bertohf5@gmail.com</li>
-                        <li><strong>Escolaridade</strong>: Ensino médio completo</li>
-                    </ul>
+                <div className="img-profile">
+                    <div>
+                        <img src={Perfil} alt="" />
+                    </div>
+                    <div className='profile'>
+                        <h2>Perfil</h2>
+                        <ul>
+                            <li><strong>Nome</strong>: Humberto Monteiro Araújo Filho</li>
+                            <li><strong>Idade</strong>: 25 anos</li>
+                            <li><strong>Estado</strong> civil: Casado</li>
+                            <li><strong>Cidade</strong>: Fortaleza/ CE</li>
+                            <li><strong>Email</strong>: bertohf5@gmail.com</li>
+                            <li><strong>Escolaridade</strong>: Ensino médio completo</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <Skills/>
