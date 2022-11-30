@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     animation: tecnologiY 1.5s;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .skills {
-    width: 85%;
+    width: 80%;
 }
 
 .skills h2 {
@@ -38,8 +38,8 @@
     align-items: center;
     font-size: 1.7em;
     border-radius: 4px;
-    cursor: pointer;
-    width: 180px;
+    cursor: auto;
+    width: 175px;
     height: 170px;
     margin-bottom: 30px;
     color: black;
@@ -49,14 +49,14 @@
 
 .tec h3 {
     position: absolute;
-    top: -7px;
-    font-size: 4em;
+    top: 4px;
+    font-size: 3.5em;
     color: rgba(255, 255, 255, 0.178)
 }
 
 .tec button {
     position: absolute;
-    bottom: 40px;
+    bottom: 35px;
     border: 0;
     background-color: transparent;
     color: #fff;

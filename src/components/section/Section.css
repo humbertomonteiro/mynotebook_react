@@ -1,42 +1,68 @@
-.section {
+.bg-none {
+    background-color: rgba(0, 0, 0, 0.171);
+    color: #fff;
+}
+
+.bg-white {
+    background-color: rgb(236, 236, 236);
+    color: #000;
+}
+
+.bg-white .icon i {
+    color: #000;
+}
+
+.content {
+    max-width: 1000px;
+    padding: 0 10px;
+}
+
+.container-notes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-notes {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
-.section i {
-    max-width: 375px;
-    font-size: 15em;
-    margin: 20px 0;
+.content-notes .cont {
+    max-width: 500px;
 }
 
-.section h1 {
-    font-size: 3em;
+.icon i {
+    font-size: 14em;
+    cursor: auto;
+    margin: 0 40px;
 }
 
-.section p {
-    font-size: 1.2em;
+.content h1 {
+    font-size: 2em;
+    margin: 5px 0;
 }
 
-.section .cont {    
-    max-width: 450px;
-    padding: 20px;
+.content h2 {
+    font-size: 1.7em;
+    margin: 5px 0;
 }
 
-.buttons {
-    display: flex;
-    margin: 10px 0;
-}
-
-.buttons a,
 .btn {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.btn a,
+button {
     display: flex;
     align-items: center;
     text-decoration: none;
     cursor: pointer;
+    margin: 15px 0;
     font-size: 1.5em;
-    margin: 0 15px;
     padding: 5px;
     border-radius: 4px;
     background-color: transparent;
@@ -44,37 +70,84 @@
     transform: scale(1.05);
 }
 
-.buttons a:hover,
-.buttons .btn:hover {
+.btn a:hover,
+.btn button:hover {
     transform: scale(1);
-}
-
-.corBg {
-    background-color:rgb(255, 255, 255);
-    box-shadow: 3px 3px 10px black;
-}
-
-.corLetra,
-.btn-white {
-    color: #fff;
 }
 
 .btn-white {
     border: 1px solid #fff;
+    color: #fff;
 }
 
 .btn-black {
-    font-weight: 100;
-    color: #000;
     border: 1px solid #000;
 }
 
-.container-show-notes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.cont-note .cont-note-info {
     padding: 0 10px;
+}
+
+.cont-note-info h3 {
+    font-size: 1.4em;
+    margin: 5px 0;
+}
+
+.cont-note-info h4 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.cont-note-info strong {
+    margin: 0 3px;
+}
+
+.div-img {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.div-img img {
+    width: 600px;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: .7s;
+    transform: scale(1);
+}
+
+.div-img img:hover {
+    border: 1px solid rgb(201, 201, 201);
+    transform: scale(1.02);
+}
+
+.div-video {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.div-video iframe {
+    width: 600px;
+    border-radius: 5px;
+}
+
+@media (max-width: 769px) {
+    .div-img img {
+        width: 350px;
+    }
+
+    .div-video iframe {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon i {
+        font-size: 11em;
+        margin: 15px 0px;
+    }
 }
 
 #note {
@@ -83,70 +156,4 @@
 
 #note.active {
     display: block;
-}
-
-.container-show-notes div {
-    max-width: 900px;
-}
-
-.container-show-notes h1 {
-    font-size: 2.2em;
-    padding: 10px 0;
-}
-
-.container-show-notes h2 {
-    font-size: 2em;
-    padding: 10px 0;
-}
-
-.container-show-notes h3 {
-    font-size: 1.7em;
-    padding: 10px 0;
-}
-
-.container-show-notes p {
-    font-size: 1.1em;
-}
-
-.container-show-notes .div-img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center ;
-    align-items: center;
-    margin: 20px 0;
-}
-
-.container-show-notes .div-img img {
-    padding: 2px;
-    background-color: #000;
-    border-radius: 4px;
-}
-
-.container-show-notes .div-video {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.container-show-notes .div-video iframe {
-    border-radius: 4px;
-    padding: 2px;
-    background-color: #000;
-}
-
-.container-show-notes strong {
-    margin: 0 2px;
-}
-
-@media screen and (max-width: 780px) {
-    .container-show-notes .div-img img,
-    .container-show-notes .div-video iframe {
-        width: 340px;
-    }
-
-    .buttons a,
-    .btn {
-        font-size: 1.2em;
-    }
-}
+} 

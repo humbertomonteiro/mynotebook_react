@@ -24,10 +24,9 @@ export default function Profile() {
                     </ul>
                 </div>
             </div>
-
+            <Skills/>
             <div className='container-datas'>
                 <div className='data'>
-                <Skills/>
                     <div>
                         <h2>Sobre</h2>
                         <p>

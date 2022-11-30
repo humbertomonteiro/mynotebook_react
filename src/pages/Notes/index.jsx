@@ -6,7 +6,7 @@ import Node from '../../components/section/Node'
 export default function Notes() {
 
     return (
-        <section className='container-notes'>
+        <section className='notas-container'>
             <Git/>
             <GitHub/>
             <Node/>

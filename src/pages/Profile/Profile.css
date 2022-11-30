@@ -2,12 +2,15 @@
     color: #fff;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .container-img {
     display: flex;
     justify-content: space-around; 
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -77,6 +80,10 @@
 
 @media screen and (max-width: 480px) {
     .container-img img {
-        width: 150px;
+        margin-top: 0;
+    }
+
+    .container-profile p {
+        max-width: 345px;
     }
 }
