@@ -4,7 +4,7 @@
 }
 
 .bg-white {
-    background-color: rgb(236, 236, 236);
+    background-color: rgba(255, 255, 255, 0.959);
     color: #000;
 }
 
@@ -13,30 +13,31 @@
 }
 
 .content {
-    max-width: 1000px;
-    padding: 0 10px;
-}
-
-.container-notes {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .content-notes {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
+    padding: 10px 0;
+    max-width: 1000px;
 }
 
 .content-notes .cont {
-    max-width: 500px;
+    width: 500px;
+} 
+
+.icon {
+    width: 220px;
+    cursor: auto;
 }
 
 .icon i {
     font-size: 14em;
-    cursor: auto;
-    margin: 0 40px;
 }
 
 .content h1 {
@@ -84,8 +85,13 @@ button {
     border: 1px solid #000;
 }
 
-.cont-note .cont-note-info {
-    padding: 0 10px;
+.cont-note {
+    display: flex;
+
+}
+
+.cont-note-info {
+    width: 1000px;
 }
 
 .cont-note-info h3 {
@@ -144,6 +150,26 @@ button {
 }
 
 @media (max-width: 480px) {
+    .content-notes {
+        display: flex;
+        flex-direction: column;
+        max-width: 450px;
+        align-items: center;
+    }
+
+    .content-notes .cont {
+        width: 350px;
+    }
+
+    .cont-note-info {
+        width: 350px;
+        padding-bottom: 10px;
+    }
+
+    .icon {
+        display: flex;
+    }
+
     .icon i {
         font-size: 11em;
         margin: 15px 0px;
@@ -157,3 +183,11 @@ button {
 #note.active {
     display: block;
 } 
+
+pre {
+    background-color: aqua;
+    color: #000;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px 0;
+}
