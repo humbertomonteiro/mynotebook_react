@@ -101,7 +101,8 @@ export default function GitHub() {
                             <p>
                                 Aqui no nosso caso vamos criar um repositório remoto já existente.
                                 então para começar vamos copiar o primerio código que o github nos mostrou.
-                                Esse: <strong>git remote add origin https://github.com/humbertomonteiro/sdgfgds.git</strong>
+                                Esse: 
+                                <strong>git remote add origin https://github.com/humbertomonteiro/sdgfgds.git</strong>
                             </p>
                             <p>
                                 Agora vamos no terminal do nosso projeto e colocar esse código copiado. Esse
@@ -135,8 +136,8 @@ export default function GitHub() {
                                 Se formos trabalhar em um repositório remoto, temos que clonar ele no nosso
                                 computador, fazemos isso com o comando <strong>git clone</strong>
                                 Para começar vamos no repositório que queremos trabalhar e copiar a url dele,
-                                depois vamos criar a pasta onde vamos clonar esse repositório, pode ser
-                                em qualquer lugar da sua maquina. Vamos entrar nessa pasta que acabamos de criar
+                                depois vamos criar a pasta onde vamos clonar esse repositório(pode ser
+                                em qualquer lugar da sua maquina). Vamos entrar nessa pasta que acabamos de criar
                                 e clicar no segundo botão do mouse, vão aparecer algumas opções, mas vamos escolher
                                 a opção <strong>Git Bash Here</strong>. quando fizer isso aparecerá uma telinha e é
                                 nessa telinha que vamos digitar nosso comando para clonar.
@@ -148,27 +149,13 @@ export default function GitHub() {
                                 Agora vamos supor que você está trabalhando em equipe e seus cologas já deram alguns
                                 push no projeto, você não vai ver essas alterações na sua maquina, para atualizar o projeto
                                 de acordo como está la no repositório remoto ultilizamos o comando <strong>git pull</strong>.
-                                Pronto! Agora seu repositório está atualizado e você pode  trabalhar normalmente.
+                                Pronto! Agora seu repositório está atualizado e você pode trabalhar normalmente.
                             </p>
                             <h3>Personalize seu GitHub</h3>
                             <p>
                                 Seu github será visto por empresas para que elas avaliem seus códigos e vejam seus
-                                projetos. Então vamos dar uma melhorada no nosso github.
-                            </p>
-                            <p>
-                                Primeiro de tudo vamos ter que criar um novo repositório com o nome do seu perfil.
-                                você terá que deixado publico e adicinado um README. Agora é só clicar no botão
-                                criar repositório.
-                            </p>
-                            <p>
-                                Com isso, se entrar agora no seu perfil estará da seguinte forma:
-                            </p>
-                            {/* <div>
-                                <img src="../imagens/perfilgithub.PNG" alt=""/>
-                            </div> */}
-                            <p>
-                                Agora para começar a editar basta clicar na caneta que está na parte
-                                direita.
+                                projetos. Então vamos dar uma melhorada no nosso github. Veja esse video que você conseguirá 
+                                deixar muito mais atrativo seu GitHub
                             </p>
                             <div className="div-video">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/cRoBt6AZgjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

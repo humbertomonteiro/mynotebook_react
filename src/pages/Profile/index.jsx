@@ -3,7 +3,6 @@ import './Profile.css'
 import { AiOutlineInstagram, AiFillGithub, AiFillLinkedin, AiFillProfile } from 'react-icons/ai'
 
 import Perfil from '../../assets/imgs/perfil.jpg'
-import Skills from '../../components/Skills'
 
 export default function Profile() {
     return (
@@ -17,17 +16,44 @@ export default function Profile() {
                     <div className='profile'>
                         <h2>Perfil</h2>
                         <ul>
-                            <li><strong>Nome</strong>: Humberto Monteiro Araújo Filho</li>
-                            <li><strong>Idade</strong>: 25 anos</li>
-                            <li><strong>Estado</strong> civil: Casado</li>
-                            <li><strong>Cidade</strong>: Fortaleza/ CE</li>
-                            <li><strong>Email</strong>: bertohf5@gmail.com</li>
-                            <li><strong>Escolaridade</strong>: Ensino médio completo</li>
+                            <li><strong>Nome:</strong> Humberto Monteiro Araújo Filho</li>
+                            <li><strong>Idade:</strong> 25 anos</li>
+                            <li><strong>Estado:</strong> civil Casado</li>
+                            <li><strong>Cidade:</strong> Fortaleza/ CE</li>
+                            <li><strong>Email:</strong> bertohf5@gmail.com</li>
+                            <li><strong>Escolaridade:</strong> Ensino médio completo</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <Skills/>
+            <div className="container-courses">
+            <h2>Cursos</h2>
+                <div className='courses'>
+                    <div className='course'>
+                        <ul>
+                            <li><strong>Curso:</strong> Web moderno</li>
+                            <li><strong>Instituição:</strong> Cod3r</li>
+                            <li><strong>plataforma:</strong> Udemy</li>
+                        </ul>
+                        <h3>Sobre o curso</h3>
+                        <p>
+                            Javascript, Angular, React, Next, Vue, Node, HTML, CSS, jQuery, Bootstrap, Webpack,
+                            Gulp, MySQL
+                        </p>
+                    </div>
+                    <div className='course'>
+                        <ul>
+                            <li><strong>Curso:</strong> Web completo</li>
+                            <li><strong>plataforma:</strong> Udemy</li>
+                        </ul>
+                        <h3>Sobre o curso</h3>
+                        <p>
+                            HTML5, CSS3, SASS, Bootstrap, JS, ES6, MySQL, JQuery, MVC, APIs, IONIC
+                        </p>
+                    </div>
+
+                </div>
+            </div>
             <div className='container-datas'>
                 <div className='data'>
                     <div>

@@ -25,7 +25,7 @@ export default function Header() {
                 
             </nav>
             <div className="toggle" onClick={() => handleToggle()}>
-            <i className={toggle.clicked ? 'icon fa-solid fa-x' : 'icon fa-solid fa-bars'}></i>
+                <i className={toggle.clicked ? 'icon-toggle fa-solid fa-x' : 'icon-toggle fa-solid fa-bars'}></i>
             </div>
         </header>
     )

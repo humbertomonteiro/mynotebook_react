@@ -32,12 +32,12 @@
 } 
 
 .icon {
-    width: 220px;
     cursor: auto;
 }
 
 .icon i {
     font-size: 14em;
+    margin: 0 40px;
 }
 
 .content h1 {
@@ -91,7 +91,7 @@ button {
 }
 
 .cont-note-info {
-    width: 1000px;
+    width: 900px;
 }
 
 .cont-note-info h3 {

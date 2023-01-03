@@ -13,7 +13,7 @@
 }
 
 .img-profile {
-    width: 700px;
+    width: 900px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,6 +29,28 @@
 
 .container-img strong {
     margin-bottom: 12px;
+}
+
+.container-courses {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses {
+    display: flex;
+    max-width: 900px;
+}
+
+.course {
+    max-width: 400px;
+}
+
+.course h3 {
+    margin-top: 10px;
+}
+
+.course li {
+    padding: 2px 0;
 }
 
 .container-datas {
@@ -60,7 +82,7 @@
 }
 
 .container-profile p {
-    max-width: 550px;
+    max-width: 810px;
 }
 
 .container-profile ul li {
