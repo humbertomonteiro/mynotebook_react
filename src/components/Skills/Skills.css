@@ -38,13 +38,17 @@
     align-items: center;
     font-size: 1.7em;
     border-radius: 4px;
-    cursor: auto;
+    cursor: pointer;
     width: 175px;
     height: 170px;
     margin-bottom: 30px;
     color: black;
     transition: transform 0.7s;
     transform: translateY(30px);
+}
+
+.tec:hover {
+    transform: scale(1.1);
 }
 
 .tec h3 {
@@ -64,22 +68,6 @@
     font-weight: bolder;
     text-shadow: -2px 2px 2px rgb(43, 42, 42);
 }
-
-/* .js {
-    color: rgba(255, 255, 0, 0.753);
-}
-
-.node {
-    color: rgb(0, 104, 0);
-}
-
-.react {
-    color: rgb(0, 71, 177);
-}
-
-.git {
-    color: rgb(255, 255, 255);
-} */
 
 @media (max-width: 1150px) {
     .tec {
