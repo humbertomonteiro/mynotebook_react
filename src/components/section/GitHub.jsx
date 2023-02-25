@@ -22,10 +22,6 @@ export default function GitHub() {
                     <div className='cont'>
                         <h1>GitHub</h1>
                         <p>
-                            Crie seus repósitorios remotos.
-                        </p>
-                        <h2>Veja como:</h2>
-                        <p>
                             Aqui está mue GitHub e minhas anotações.
                         </p>
                         <h2>Veja meus repositórios</h2>
