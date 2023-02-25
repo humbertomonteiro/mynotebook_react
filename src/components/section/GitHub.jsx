@@ -162,7 +162,7 @@ export default function GitHub() {
                             </div>
                             <div className="btn btn-close">
                                 <a href='#gitHub' onClick={() => showNote()} className='btn btn-black'>
-                                    <i class="fa-solid fa-chevron-up"></i>
+                                    Fechar anotações GitHub
                                 </a>
                             </div>
                         </div>

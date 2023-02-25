@@ -597,7 +597,7 @@ export default function SectionNode() {
                             {/* <h2>MongoDB</h2> */}
                             <div className="btn btn-close">
                                 <a href='#node' onClick={() => showNote()} className='btn btn-white'>
-                                    <i class="fa-solid fa-chevron-up"></i>
+                                    Fechar anotações Node
                                 </a>
                             </div>
                         </div>
