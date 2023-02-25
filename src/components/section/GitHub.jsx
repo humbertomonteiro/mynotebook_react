@@ -16,7 +16,7 @@ export default function GitHub() {
         setBtnShow({clicked: !btnShow.clicked})
     }
     return (
-        <section data-anime className='container-notes bg-white'>
+        <section id='gitHub' data-anime className='container-notes bg-white'>
             <div className="content">
                 <div className="content-notes">
                     <div className='cont'>
@@ -26,7 +26,11 @@ export default function GitHub() {
                         </p>
                         <h2>Veja como:</h2>
                         <p>
-                            Aqui está mue GitHub e minhas anotações para que fique fácil o uso dessa ferramenta indispensavel.
+                            Aqui está mue GitHub e minhas anotações.
+                        </p>
+                        <h2>Veja meus repositórios</h2>
+                        <p>
+                            Você vai encontrar outros projetos, segue lá!
                         </p>
                         <div className='btn'>
 
@@ -159,6 +163,11 @@ export default function GitHub() {
                             </p>
                             <div className="div-video">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/cRoBt6AZgjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div className="btn btn-close">
+                                <a href='#gitHub' onClick={() => showNote()} className='btn btn-black'>
+                                    <i class="fa-solid fa-chevron-up"></i>
+                                </a>
                             </div>
                         </div>
                     </div>

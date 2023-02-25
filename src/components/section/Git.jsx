@@ -11,7 +11,7 @@ export default function Git() {
     }
 
     return (
-        <section className='container-notes bg-none'>
+        <section id='git' className='container-notes bg-none'>
             <div className="content">
                 <div className='content-notes'>
 
@@ -21,11 +21,8 @@ export default function Git() {
                     <div className='cont'>
                         <h1>Git</h1>
                         <p>
-                            Para ter seus arquivos salvos e faceis de visualizar você pode usar o GitHub, um repositório muito famoso.
-                        </p>
-                        <h2>Veja meus repositórios</h2>
-                        <p>
-                            Aqui você vai encontrar outros projetos, segue la que sigo de volta pra gente se ajudar.
+                            Vercionar projetos vai fazer sua vida como programador muito melhor.
+                            Aprenda a usar o git o mais rápido possivel.
                         </p>
                         <div className="btn">
                             <button onClick={() => showNote()} className='btn btn-white'>Anotações Git</button>
@@ -161,6 +158,11 @@ export default function Git() {
                             </p>
                             <div className="div-video">
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Yp0RRTdtkqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div className="btn btn-close">
+                                <a href='#git' onClick={() => showNote()} className='btn btn-white'>
+                                    <i class="fa-solid fa-chevron-up"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
