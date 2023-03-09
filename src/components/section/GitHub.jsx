@@ -30,7 +30,7 @@ export default function GitHub() {
                         </p>
                         <div className='btn'>
 
-                            <a className='btn btn-black' href="https://github.com/humbertomonteiro" target='_blanck'>Meu GitHub</a>
+                            <a className='btn btn-black' href="https://github.com/humbertomonteiro" target='_blanck'>GitHub</a>
 
                             <button onClick={() => showNote()} className='btn btn-black'>
                                 Anotações GitHub
@@ -162,7 +162,7 @@ export default function GitHub() {
                             </div>
                             <div className="btn btn-close">
                                 <a href='#gitHub' onClick={() => showNote()} className='btn btn-black'>
-                                    Fechar anotações GitHub
+                                    Fechar GitHub
                                 </a>
                             </div>
                         </div>

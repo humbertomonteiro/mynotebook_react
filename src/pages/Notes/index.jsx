@@ -7,7 +7,7 @@ export default function Notes() {
 
     return (
         <section className='notas-container'>
-            <Git/>
+            <Git className="git"/>
             <GitHub/>
             <Node/>
             <Bootstrap/>

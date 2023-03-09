@@ -1,39 +1,44 @@
-.container-introduceMe {
+.container-introduceme {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     color: #fff;
+    overflow: hidden;
 }
 
-.introduceMe {
-    max-width: 600px;
-}
-
-.introduceMe-text {
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.introduceMe-text span {
-    font-weight: bolder;
-    font-size: 1.2em;
+.introduceme-text .name {
+    font-weight: 900;
+    font-size: 2.9rem;
     color: aqua;
+    opacity: 0;
+    animation: slideXLeft 1s ease forwards;
+    animation-delay: .5s;
 }
 
-.introduceMe-text .name {
-    font-size: 2.3em;
-    margin-bottom: 10px;
+.introduceme-text h3 {
+    font-size: 2rem;
 }
 
-.introduceMe-text .text {
+.introduceme-text .hello {
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .5s;
+}
+
+.introduceme-text .i-am{
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .5s;
+}
+
+.introduceme-text .text {
     font-size: 1.1em;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
     max-width: 610px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .5s;
 }
 
 .btn-contacts {
@@ -53,16 +58,21 @@
     color: #fff;
     border: 1px solid #fff;
     font-size: 1.5em;
-    margin: 0 15px;
-    padding: 5px;
-    border-radius: 4px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 50%;
     background-color: transparent;
-    transition: transform 0.7s;
+    transition: 0.7s;
     transform: scale(1.05);
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .btn-contacts button:hover {
     transform: scale(1);
+    background-color: #fff;
+    color: #090e20;
 }
 
 .introduceMe-img {
@@ -70,31 +80,126 @@
 }
 
 .introduceMe-img img {
-    max-width: 400px;
+    max-width: 400px;  
+    opacity: 0; 
+    animation: zoomIn 1s ease forwards, floatImg 4s ease-in-out infinite;
+    animation-delay: 2s, 3s;
 }
 
 @media (max-width: 700px) {
-    .introduceMe-text {
-        margin: 0 0 15px 0;
+
+    .introduceMe-img img {
+        max-width: 95%; 
     }
 
-    .introduceMe-text .name {
-        font-size: 1.4em;
+    .introduceme-text {
+        margin-left: 15px;
     }
 
     .introduceMe-text .text {
         font-size: 1em;
-        max-width: 500px;
+        width: 90%;
+    }
+
+    .btn-contacts {
+        width: 100%;
     }
 }
 
 @media (max-width: 400px) {
-    .introduceMe-text .text {
-        width: 300px;
+
+    .introduceme-text .name {
+        font-size: 1.5rem;
+    }
+
+    .introduceme-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .introduceme-text .text {
+        width: 98%;
+    }
+
+    .introduceMe-img img {
+        display: none;
     }
 
     .btn-contacts button {
         font-size: 1.2em;
+        margin-bottom: 25px;
     }
 }
 
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideRigth {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes floatImg {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-24px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

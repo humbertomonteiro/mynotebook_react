@@ -161,7 +161,7 @@ export default function Git() {
                             </div>
                             <div className="btn btn-close">
                                 <a href='#git' onClick={() => showNote()} className='btn btn-white'>
-                                    Fechar anotações Git
+                                    Fechar Git
                                 </a>
                             </div>
                         </div>

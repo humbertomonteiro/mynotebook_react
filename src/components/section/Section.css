@@ -12,6 +12,37 @@
     color: #000;
 }
 
+#git, #node {
+    animation: slideXLeft 1s;
+}
+
+#gitHub, #bootstrap {
+    animation: slideXrigth 1s;
+}
+
+@keyframes slideXLeft {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideXrigth {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 .content {
     display: flex;
     justify-content: center;
@@ -25,7 +56,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 10px 0;
-    max-width: 1000px;
+    width: 95%;
 }
 
 .content-notes .cont {
@@ -79,6 +110,7 @@ article p {
 .btn {
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -86,17 +118,17 @@ article p {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    overflow: hidden;
+    border-radius: 20px;
 }
 
 .btn-close .btn-black,
 .btn-close .btn-white {
-    background-color: #00e6ee;
-    color: #000;
+    background-color: #000;
+    color: #fff;
 }
 
 .btn a,
-button {
+.btn button {
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -106,13 +138,13 @@ button {
     padding: 5px;
     border-radius: 4px;
     background-color: transparent;
-    transition: transform 0.7s;
-    transform: scale(1.05);
+    transition: 0.7s;
+    transform: scale(1);
 }
 
 .btn a:hover,
 .btn button:hover {
-    transform: scale(1);
+    transform: scale(1.1);
 }
 
 .btn-white {

@@ -1,6 +1,7 @@
 import './Profile.css'
 
-import { AiOutlineInstagram, AiFillGithub, AiFillLinkedin, AiFillProfile } from 'react-icons/ai'
+import { AiOutlineInstagram, AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import Projects from '../Projects'
 
 import Perfil from '../../assets/imgs/perfil.jpg'
 
@@ -33,7 +34,7 @@ export default function Profile() {
                 </div>
             </div>
             <div className="container-about">
-                <div>
+                <div className='about'>
                     <h2>Sobre</h2>
                     <p>
                         Constante aprendiz. Quero proporcionar melhorias de negócios, adquirir e compartilhar
@@ -75,16 +76,17 @@ export default function Profile() {
 
                 </div>
             </div>
-            <div className="container-specialties-projects">
+            <div className="container-specialties">
                 <ul className='specialties'>
                     <h2>Especialidades</h2>
                     <li>Sites</li>
                     <li>Blogs</li>
                     <li>Sistemas</li>
                 </ul>
-                <div className='projects'>
-                    <h2>Projetos</h2>
-                    <a href="/projetos">Projetos pessoais <AiFillProfile/></a>
+            </div>
+            <div className="container-list-projects">
+                <div className='list-projects'>
+                    <Projects/>
                 </div>
             </div>
         </div>

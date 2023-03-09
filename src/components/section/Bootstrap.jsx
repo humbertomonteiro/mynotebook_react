@@ -2,7 +2,7 @@ import './Section.css'
 
 export default function SectionBootstrap() {
     return (
-        <section data-anime className='container-notes bg-white'>
+        <section id='bootstrap' data-anime className='container-notes bg-white'>
             <div className="content">
                 <div className="content-notes">
                     <div className='cont'>

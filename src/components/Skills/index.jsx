@@ -5,23 +5,22 @@ export default function Skills() {
         <section className='container-skills'>
 
             <div className='skills'>
-                <h2>Skills</h2>
                 <div className='tecs'>
                     <a href='/anotacoes' className='tec git'>
                         <h3><i className="fa-brands fa-git-alt"></i></h3>
-                        <button>Git</button>
+                        <h4>Git</h4>
                     </a>
                     <a href='/anotacoes' className='tec github'>
                         <h3><i className="fa-brands fa-github"></i></h3>
-                        <button>GitHub</button>
+                        <h4>GitHub</h4>
                     </a>
                     <a href='/anotacoes' className='tec node'>
                         <h3><i className="fa-brands fa-node-js"></i></h3>
-                        <button>Node.js</button>
+                        <h4>Node.js</h4>
                     </a>
                     <a href='/anotacoes' className='tec'>
                         <h3><i className="fa-brands fa-bootstrap"></i></h3>
-                        <button>Bootstrap</button>
+                        <h4>Bootstrap</h4>
                     </a>
                 </div>
             </div>

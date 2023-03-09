@@ -5,25 +5,24 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    animation: tecnologiY 1.5s;
+    opacity: 0;
+    animation: tecnologiY 1s ease forwards;
+    animation-delay: 1.5s;
 }
 
 @keyframes tecnologiY {
     from {
         transform: translateY(120px);
+        opacity: 0;
     }
     to {
         transform: translateY(0px);
+        opacity: 1;
     }
 }
 
 .skills {
     width: 80%;
-}
-
-.skills h2 {
-    text-align: center;
-    font-size: 1.6em;
 }
 
 .tecs {
@@ -42,9 +41,13 @@
     width: 175px;
     height: 170px;
     margin-bottom: 30px;
-    color: black;
+    color: #fff;
     transition: transform 0.7s;
-    transform: translateY(30px);
+    transform: translateY(20px);
+}
+
+.tec:hover {
+    color: aqua;
 }
 
 .tec:hover {
@@ -55,15 +58,13 @@
     position: absolute;
     top: 4px;
     font-size: 3.5em;
-    color: rgba(255, 255, 255, 0.178)
 }
 
-.tec button {
+.tec h4 {
     position: absolute;
-    bottom: 35px;
+    bottom: 30px;
     border: 0;
     background-color: transparent;
-    color: #fff;
     font-size: 1.3em;
     font-weight: bolder;
     text-shadow: -2px 2px 2px rgb(43, 42, 42);

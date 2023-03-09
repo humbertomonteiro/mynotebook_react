@@ -30,7 +30,7 @@ export default function SectionNode() {
                             mais.
                         </p>
                         <div className="btn">
-                        <button onClick={() => showNote()} className='btn btn-white'>Anotações Node.js</button>
+                        <button onClick={() => showNote()} className='btn btn-white'>Anotações Node</button>
                         </div>
                     </div>
                 </div>
@@ -597,7 +597,7 @@ export default function SectionNode() {
                             {/* <h2>MongoDB</h2> */}
                             <div className="btn btn-close">
                                 <a href='#node' onClick={() => showNote()} className='btn btn-white'>
-                                    Fechar anotações Node
+                                    Fechar Node
                                 </a>
                             </div>
                         </div>
